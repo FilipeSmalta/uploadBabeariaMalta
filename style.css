@@ -1,0 +1,174 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	color: #C78C19;
+
+}
+
+header {
+	background: url("bg.jpg");
+	padding: 20px 0;
+}
+.logo-branco{
+	width: 120px;
+
+}
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #C78C19;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+	
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px; 
+	transition: 2s all;
+
+}
+
+.produtos li:hover {
+	
+	 border-color: #C78C19;
+	 background: url("bg.jpg");
+
+}
+
+.produtos li:active {
+	border-color: #088C19;
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
+	
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #C78C19;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+
+main { 
+	
+	width: 940px;
+	margin: 0 auto;
+	
+}
+
+form { 
+	margin: 0 40px ;
+	
+}
+
+form label {
+	color: #000000;
+
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+
+}
+
+form input {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+.conteudo-beneficios{
+	width: 640px;
+	margin: auto;
+}
+.lista-beneficio{
+	width: 40%;
+	display: inline-block
+	
+	
+}
+.imagem-beneficios{
+	width: 60%;
+}
+.mapa{
+	padding: 3em 0;
+}
+.mapa p{
+	margin: 0 0 2rem;
+	text-align: center;
+}
+.video{
+	
+	width: 560px;
+	margin:  2em auto;
+}
+
+@media screen and (max-width:450px){
+
+	.caixa{
+		width: auto;
+	}
+}
+.copyright{
+	font-weight: bold;
+}
+.imagembeneficios {
+	width: 50%;
+}
